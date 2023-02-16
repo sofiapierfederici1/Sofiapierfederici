@@ -54,7 +54,7 @@ footer{
 .logo-1{
     position: absolute;
     top: 2.5%;
-    right: 5%;
+    right: 6%;
 }
 
 .menu-1{
@@ -99,18 +99,18 @@ a:hover{
     .logo-1{
         position: absolute;
         top: 2.5%;
-        right: 7%;
+        right: 9%;
     }
 }
 
 
 /* mobile */
-@media only screen and (min-width: 381px) and (max-width: 800px){
+@media only screen and (min-width: 381px) and (max-width: 900px){
 
     .logo-1{
         position: absolute;
         top: 2.5%;
-        right: 6%;
+        right: 8%;
     }
 
 
