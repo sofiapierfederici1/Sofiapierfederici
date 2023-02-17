@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+h1{
+    font-weight:lighter;
+} 
+
+
+.title{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.menu-container{
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.menu{
+    margin: 20px;
+    font-size: 19px;
+}
+
+
+footer{
+    color: black;
+    position:absolute;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.logo-1{
+    position: absolute;
+    top: 2.5%;
+    right: 6%;
+}
+
+.menu-1{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    font-size: 19px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: #C0C0C0	;
+}
+
+
+/* mobile */
+@media only screen and (min-width: 100px) and (max-width: 380px){
+
+    .title{
+        font-size: 13px;
+    }
+
+    .menu-container{
+        top: 33%;
+    }
+
+    .menu{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .menu-1{
+        font-size: 15px;
+    }
+
+    .logo-1{
+        position: absolute;
+        top: 2.5%;
+        right: 9%;
+    }
+}
+
+
+/* mobile */
+@media only screen and (min-width: 381px) and (max-width: 900px){
+
+    .logo-1{
+        position: absolute;
+        top: 2.5%;
+        right: 8%;
+    }
+
+
+}
+
+
+
+
+
+
