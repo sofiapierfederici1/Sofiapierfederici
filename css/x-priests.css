@@ -8,6 +8,10 @@ body{
     font-family: 'Cormorant Garamond', serif;
 }
 
+html {
+    scroll-behavior:smooth;
+  }
+
 img{
     width: 500px;
 }

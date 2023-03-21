@@ -8,6 +8,11 @@ body{
     font-family: 'Cormorant Garamond', serif;
 }
 
+html {
+    scroll-behavior:smooth;
+  }
+  
+
 .title{
     font-size: 26px;
     font-weight: lighter;
