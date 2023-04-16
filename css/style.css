@@ -9,6 +9,26 @@ body{
     font-family: 'Cormorant Garamond', serif;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.body-bg{
+    background-image: url("BG1.png");
+    background-size: cover;
+}
+
+.body-bg-due{
+    background-image: url("BG2.jpg");
+    background-size: cover;
+}
+
+.body-bg-tre{
+    background-image: url("BG3.jpg");
+    background-size: 1450px;
+    
+}
+
 
 h1{
     font-weight:lighter;
