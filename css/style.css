@@ -13,21 +13,7 @@ body{
     background-color: white;
 }
 
-.body-bg{
-    background-image: url("BG1.png");
-    background-size: cover;
-}
 
-.body-bg-due{
-    background-image: url("BG2.jpg");
-    background-size: cover;
-}
-
-.body-bg-tre{
-    background-image: url("BG3.jpg");
-    background-size: 1450px;
-    
-}
 
 
 h1{
@@ -56,6 +42,9 @@ h1{
     font-size: 19px;
 }
 
+.hidden{
+    display: none;
+}
 
 footer{
     color: black;
@@ -94,6 +83,7 @@ a{
 a:hover{
     color: #C0C0C0	;
 }
+
 
 
 /* mobile */
