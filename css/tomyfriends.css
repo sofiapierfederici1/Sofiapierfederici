@@ -67,21 +67,18 @@ img{
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    opacity: 0.8;
 }
 
 .sx{
     display: flex;
     justify-content: flex-start;
     margin-top: 200px;
-    opacity: 0.8;
 }
 
 .dx{
     display: flex;
     justify-content: flex-end;
     margin-top: 200px;
-    opacity: 0.8;
 }
 
 
@@ -98,11 +95,11 @@ img{
     margin-top: 70px;
 }
 
-.in-page{
+/* .in-page{
    transform: scale(1.04);
    transition: all 1s cubic-bezier(.215, .61, .355, 1);
-   opacity: 5;
-}
+   /* opacity: 5; */
+/* } */ 
 
 
 
