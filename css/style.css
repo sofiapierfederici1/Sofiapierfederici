@@ -28,6 +28,11 @@ h1{
     text-align: center;
 }
 
+.btn-cookie{
+    padding: 20px;
+    padding-left: 15px;
+}
+
 
 .menu-container{
     position: absolute;
