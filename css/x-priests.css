@@ -13,20 +13,20 @@ html {
   }
 
 img{
-    width: 500px;
+    width: 400px;
 }
 
 .title{
     font-size: 26px;
     font-weight: lighter;
-    position: absolute;
+    position: fixed;
     top: 5%;
     left: 5%;
 }
 
 .menu{
     font-size: 16px;
-    position: absolute;
+    position: fixed;
     top: 6%;
     right: 5%;
 }
@@ -34,7 +34,7 @@ img{
 .menu-1{
     font-size: 18px;
     font-weight: lighter;
-    position: absolute;
+    position: fixed;
     top: 10%;
     left: 5%;
 }
@@ -51,17 +51,22 @@ a:hover{
 .container{
     margin: 25px;
     padding-top: 150px;
+    display : flex;
 }
 
-.dit{
+
+
+
+/* .dit{
     display: flex;
     justify-content: center;
     margin: 50px;
     margin-top: 80px;
-}
+} */
 
 .foto{
-    margin: 15px
+    margin: 15px;
+    align-items: center;
 }
 
 .button{
@@ -72,6 +77,9 @@ a:hover{
 
 footer{
     color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 3px;
     text-align: center;
     margin-bottom: 30px;
     margin-top: 70px;
@@ -80,26 +88,47 @@ footer{
 
 
 /* mobile */
-@media only screen and (min-width: 300px) and (max-width: 400px){
+@media only screen and (min-width: 200px) and (max-width: 400px){
 
     .title{
         font-size: 22px;
+        position: absolute;
+    }
+
+    .menu{
+        position: absolute;
     }
 
     .menu-1{
         font-size: 17px;
+        position: absolute;
     }
 
     .container{
-        padding-top: 70px;
+        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
     }
 
     img{
-        width: 150px;
+        width: 300px;
+        margin: 30px;
+    }
+
+    .prima{
+        padding-top: 30px;
     }
 
     .foto{
         margin: 3px;
+    }
+
+    footer{
+        position:unset;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 70px;
     }
 
     footer a{
@@ -109,20 +138,49 @@ footer{
     footer .button{
         font-size: 14px;
     }
+
+    
 }
 
 /* mobile */
 @media only screen and (min-width: 401px) and (max-width: 600px){
     img{
-        width: 200px;
+        width: 300px;
+    }
+
+    .menu{
+        position: absolute;
+    }
+
+    .prima{
+        padding-top: 30px;
+    }
+
+
+    .menu-1{
+        position: absolute;
+    }
+
+    .title{
+        position: absolute;
     }
 
     .container{
         padding-top: 70px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .foto{
         margin: 3px;
+    }
+
+    footer{
+        position:unset;
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 70px;
     }
 }
 
