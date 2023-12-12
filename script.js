@@ -15,8 +15,8 @@ item.addEventListener("mouseout",() => {
 })
 
 itemDue.addEventListener("mouseover", () => {
-    document.body.style.backgroundImage = "url(img/xp/xp-web.jpg)";
-    document.body.style.backgroundSize = "1450px";
+    document.body.style.backgroundImage = "url(img/xp/sfondo-xp.jpg)";
+    document.body.style.backgroundSize = "1420px";
 })
 
 itemDue.addEventListener("mouseout",() => {
@@ -24,8 +24,8 @@ itemDue.addEventListener("mouseout",() => {
 })
 
 itemTre.addEventListener("mouseover", () => {
-    document.body.style.backgroundImage = "url(img/port/oriz2.jpg)";
-    document.body.style.backgroundSize = "1450px";
+    document.body.style.backgroundImage = "url(img/port/oriz1.jpg)";
+    document.body.style.backgroundSize = "1440px";
 })
 
 itemTre.addEventListener("mouseout",() => {
