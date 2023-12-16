@@ -118,15 +118,15 @@ img{
     }
 
     img{
-    width: 300px;
+    width: 350px;
     }
 
     .oriz{
-        width: 300px;
+        width: 350px;
     }
 
     .container{
-        margin: 40px;
+        /* margin: 40px; */
         display: flex;
         flex-direction: column;
     }
@@ -159,7 +159,7 @@ img{
         }
     
         .container{
-            margin: 40px;
+            /* margin: 40px; */
             display: flex;
             flex-direction: column;
         }

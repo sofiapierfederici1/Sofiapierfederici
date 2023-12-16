@@ -46,7 +46,7 @@ img{
 }
 
 .oriz{
-    width: 850px;
+    width: 900px;
 }
 
 .container{
@@ -109,11 +109,11 @@ footer{
     }
 
     img{
-        width: 300px;
+        width: 350px;
     }
 
     .oriz{
-        width: 300px;
+        width: 350px;
     }
 
     .container{
@@ -147,11 +147,11 @@ footer{
 /* mobile */
 @media only screen and (min-width: 401px) and (max-width: 600px){
     img{
-        width: 350px;
+        width: 400px;
     }
 
     .oriz{
-        width: 350px;
+        width: 400px;
     }
 
     .container{
